@@ -1,0 +1,43 @@
+{
+  "name": "storybook-code-addon",
+  "version": "1.0.0-beta",
+  "description": "An addon to Storybook that allows for display of asset files in assorted languages.",
+  "main": "dist/index.js",
+  "scripts": {
+    "storybook-react": "npm run storybook --prefix ./packages/storybook-react",
+    "prepare": "node ./scripts/prepare.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/awassel/storybook-code-addon.git"
+  },
+  "author": "Addam Wassel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/awassel/storybook-code-addon/issues"
+  },
+  "homepage": "https://github.com/awassel/storybook-code-addon#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.6.0",
+    "@babel/core": "^7.6.0",
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "@babel/plugin-proposal-export-default-from": "^7.5.2",
+    "@babel/plugin-proposal-object-rest-spread": "^7.5.5",
+    "@babel/plugin-syntax-dynamic-import": "^7.2.0",
+    "@babel/preset-env": "^7.6.0",
+    "@babel/preset-flow": "^7.0.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-core": "^6.26.3",
+    "babel-eslint": "^10.0.3",
+    "chalk": "^2.4.2",
+    "core-js": "^3.2.1",
+    "lerna": "^3.16.4",
+    "npmlog": "^4.1.2",
+    "prettier": "^1.18.2",
+    "shelljs": "^0.8.3"
+  },
+  "dependencies": {
+    "copy-to-clipboard": "^3.2.0",
+    "prismjs": "^1.17.1"
+  }
+}

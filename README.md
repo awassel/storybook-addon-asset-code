@@ -1,2 +1,7 @@
-# storybook-code-addon
-An addon to Storybook that allows for display of all different code languages.
+# Storybook Code Addon
+
+An addon to Storybook that allows for display of asset files in assorted languages.
+
+## Why
+
+Storybook is a wonderful
