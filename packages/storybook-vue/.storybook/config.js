@@ -1,8 +1,5 @@
-import { configure, addDecorator, addParameters } from '@storybook/react';
-import { withCode } from '../../../dist';
+import { configure } from '@storybook/vue';
 import theme from '../../../config/theme';
-
-addDecorator(withCode);
 
 addParameters({
   options: {

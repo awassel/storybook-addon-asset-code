@@ -4,4 +4,4 @@ An addon to Storybook that allows for display of asset files in assorted languag
 
 ## Why
 
-Storybook is a wonderful
+In building out component libraries, there is a need to display more assets than default Storybook allows.

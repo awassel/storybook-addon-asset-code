@@ -1,4 +1,4 @@
-import { configure, addDecorator, addParameters } from '@storybook/react';
+import { configure, addParameters, addDecorator } from '@storybook/html';
 import { withCode } from '../../../dist';
 import theme from '../../../config/theme';
 

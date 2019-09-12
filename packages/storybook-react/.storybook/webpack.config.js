@@ -2,6 +2,7 @@ const path = require('path');
 
 module.exports = ({ config, mode }) => {
 
+  /*
   config.module.rules.push(
     {
       test: /\.(js|jsx)$/,
@@ -16,6 +17,7 @@ module.exports = ({ config, mode }) => {
       ],
     },
   );
+  */
 
   return config;
 };

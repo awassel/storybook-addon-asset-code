@@ -1,0 +1,34 @@
+{
+  "name": "storybook-html",
+  "version": "1.0.0",
+  "description": "> TODO: description",
+  "author": "Addam Wassel <AWassel@rightpoint.com>",
+  "homepage": "https://github.com/awassel/storybook-code-addon/tree/master/packages/storybook-html#readme",
+  "license": "MIT",
+  "main": "lib/storybook-html.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/awassel/storybook-code-addon.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "bugs": {
+    "url": "https://github.com/awassel/storybook-code-addon/issues"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "^7.6.0",
+    "@storybook/html": "^5.1.11",
+    "babel-loader": "^8.0.6"
+  }
+}

@@ -9,6 +9,7 @@ import { formatLanguage } from './lanuages';
 import Prism from 'prismjs';
 import 'prismjs/components/prism-sass';
 import 'prismjs/components/prism-markup';
+import 'prismjs/components/prism-markdown';
 import 'prismjs/components/prism-javascript';
 import 'prismjs/components/prism-handlebars';
 import 'prismjs/components/prism-markup-templating';
@@ -174,7 +175,9 @@ class Panel extends PureComponent {
           </Wrapper>
         )}
 
-        <ActionBar actionItems={[{ title: 'Copy', onClick: this.onCopied }]} />
+        <ActionBar actionItems={[
+          { title: 'Copy', onClick: this.onCopied },
+        ]} />
       </PanelWrapper>
     ) : null;
   }
