@@ -18,8 +18,8 @@
     "url": "git+https://github.com/awassel/storybook-code-addon.git"
   },
   "scripts": {
-    "test": "echo \"Error: run tests from root\" && exit 1",
-    "storybook": "start-storybook -p 6006",
+    "prepublishOnly": "echo \"Error: not allowed to publish\" && exit 1",
+    "storybook": "cross-env NODE_ENV=development start-storybook -p 6007",
     "build-storybook": "build-storybook"
   },
   "bugs": {
