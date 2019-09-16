@@ -54,7 +54,6 @@ const cleanup = () => {
 removeDist();
 
 babelify({ errorCallback: errorLogs => logError('js', packageJson, errorLogs) });
-// tscfy({ errorCallback: errorLogs => logError('ts', packageJson, errorLogs) });
 
 cleanup();
 
