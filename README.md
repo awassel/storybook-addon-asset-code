@@ -1,10 +1,10 @@
-# Storybook Addon Code
+# Storybook Addon Asset Code
 
 An addon to [Storybook](https://storybook.js.org/) that allows for display of asset files in assorted languages.
 
 [Framework Support](https://github.com/storybookjs/storybook/blob/master/ADDONS_SUPPORT.md)
 
-![Screenshot](https://github.com/awassel/storybook-code-addon/raw/master/docs/screenshot.png)
+![Screenshot](https://github.com/awassel/storybook-addon-asset-code/raw/master/docs/screenshot.png)
 
 ## Why
 
@@ -15,26 +15,13 @@ In building out component libraries, there may arise a need to display more asse
 Install:
 
 ```sh
-npm i -D storybook-addon-code
+npm i -D storybook-addon-asset-code
 ```
 
 Then, add following content to `.storybook/addons.js`
 
 ```js
-import 'storybook-addon-code/register';
+import 'storybook-addon-asset-code/register';
 ```
 
 Import the `withCode` decorator.
-
-> _Note: Make sure NOT to use reserved words as function names. [issues#29](https://github.com/storybookjs/storybook-addon-actions/issues/29#issuecomment-288274794)_
-
-```js
-import { storiesOf } from '@storybook/react';
-import { action } from '@storybook/addon-actions';
-
-import Button from './button';
-
-storiesOf('Button', module).add('default view', () => (
-  <Button onClick={action('button-click')}>Hello World!</Button>
-));
-```

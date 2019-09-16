@@ -1,5 +1,5 @@
 {
-  "name": "storybook-addon-cde",
+  "name": "storybook-addon-asset-code",
   "version": "1.0.0-beta",
   "description": "An addon to Storybook that allows for display of asset files in assorted languages.",
   "main": "dist/index.js",
@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/awassel/storybook-code-addon.git"
+    "url": "git+https://github.com/awassel/storybook-addon-asset-code.git"
   },
   "author": "Addam Wassel",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/awassel/storybook-code-addon/issues"
+    "url": "https://github.com/awassel/storybook-addon-asset-code./issues"
   },
-  "homepage": "https://github.com/awassel/storybook-code-addon#readme",
+  "homepage": "https://github.com/awassel/storybook-addon-asset-code.#readme",
   "workspaces": [
     "packages/storybook-react",
     "packages/storybook-vue",
