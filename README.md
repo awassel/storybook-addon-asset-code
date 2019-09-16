@@ -24,4 +24,30 @@ Then, add following content to `.storybook/addons.js`
 import 'storybook-addon-asset-code/register';
 ```
 
-Import the `withCode` decorator.
+In the `.storybook/config.js` file, import the `withCode` decorator.
+
+```js
+import { withCode } from 'storybook-addon-asset-code';
+
+addDecorator(withCode);
+```
+
+Now, you can use the `code` parameter to add a note to each story. This parameter accepts an array of objects that contain the asset language and a string of the file contents. `Raw-loader` is installed with this package in order to load the file contents as a string.
+
+> Supported langages can be found [here](https://prismjs.com/#supported-languages).
+
+```js
+import cssFile from '!!raw-loader!./button.css';
+
+storiesOf('Button', module).add(
+  'Default',
+  () => {
+    return <Button>Hello Button</Button>
+  },
+  {
+    code: [
+      { css: cssFile },
+    ],
+  }
+);
+```
