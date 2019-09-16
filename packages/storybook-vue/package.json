@@ -1,18 +1,10 @@
 {
   "name": "storybook-vue",
   "version": "1.0.0",
-  "description": "> TODO: description",
+  "private": true,
   "author": "Addam Wassel <AWassel@rightpoint.com>",
   "homepage": "https://github.com/awassel/storybook-code-addon/tree/master/packages/storybook-vue#readme",
   "license": "MIT",
-  "main": "lib/storybook-vue.js",
-  "directories": {
-    "lib": "lib",
-    "test": "__tests__"
-  },
-  "files": [
-    "lib"
-  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/awassel/storybook-code-addon.git"

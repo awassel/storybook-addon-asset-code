@@ -1,5 +1,5 @@
 {
-  "name": "storybook-code-addon",
+  "name": "storybook-addon-cde",
   "version": "1.0.0-beta",
   "description": "An addon to Storybook that allows for display of asset files in assorted languages.",
   "main": "dist/index.js",

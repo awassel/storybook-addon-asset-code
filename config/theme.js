@@ -11,6 +11,6 @@ export default create({
   fontCode: 'monospace',
 
   // Brand logo/text
-  brandTitle: 'Storybook Code Addon',
+  brandTitle: 'Storybook Addon Code',
   brandUrl: 'http://www.addamwassel.com/',
 });
