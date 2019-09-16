@@ -32,11 +32,11 @@ import { withCode } from 'storybook-addon-asset-code';
 addDecorator(withCode);
 ```
 
-Now, you can use the `code` parameter to add a note to each story. This parameter accepts an array of objects that contain the asset language and a string of the file contents. `Raw-loader` is installed with this package in order to load the file contents as a string.
+Now, you can use the `code` parameter to add a note to each story. This parameter accepts an array of objects that contain the asset language and a string of the file contents. `raw-loader` is installed with this package in order to load the file contents as a string.
 
 > Supported langages can be found [here](https://prismjs.com/#supported-languages).
 
-```js
+```jsx
 import cssFile from '!!raw-loader!./button.css';
 
 storiesOf('Button', module).add(
