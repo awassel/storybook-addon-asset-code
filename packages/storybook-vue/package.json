@@ -26,6 +26,6 @@
     "@storybook/vue": "^5.1.11",
     "babel-loader": "^8.0.6",
     "babel-preset-vue": "^2.0.2",
-    "storybook-addon-asset-code": "^1.0.0-beta"
+    "storybook-addon-asset-code": "^1.0.0-alpha"
   }
 }

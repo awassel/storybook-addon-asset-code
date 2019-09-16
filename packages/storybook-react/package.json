@@ -32,6 +32,6 @@
     "@storybook/react": "^5.1.11",
     "babel-loader": "^8.0.6",
     "babel-preset-react-app": "^9.0.1",
-    "storybook-addon-asset-code": "^1.0.0-beta"
+    "storybook-addon-asset-code": "^1.0.0-alpha"
   }
 }
