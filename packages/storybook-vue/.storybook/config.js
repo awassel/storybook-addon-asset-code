@@ -1,5 +1,5 @@
 import { configure, addDecorator, addParameters } from '@storybook/vue';
-import { withCode } from 'storybook-addon-asset-code';
+import { withCode } from '../../../dist/';
 import theme from '../../../config/theme';
 
 addDecorator(withCode);

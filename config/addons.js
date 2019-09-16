@@ -1,1 +1,1 @@
-import 'storybook-addon-code/register';
+import '../register';
