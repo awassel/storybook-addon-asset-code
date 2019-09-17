@@ -133,7 +133,7 @@ const formatLanguage = language => {
     'yml': 'YAML'
   };
 
-  return languages[language];
+  return languages[language] || language;
 };
 
 export { formatLanguage };

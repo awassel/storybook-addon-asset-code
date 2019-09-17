@@ -34,7 +34,7 @@ addDecorator(withAssetCode);
 
 Now, you can use the `assetcode` parameter to add a note to each story. This parameter accepts an array of objects that contain the asset language and a string of the file contents. 
 
-> Supported langages can be found [here](https://prismjs.com/#supported-languages).
+> Supported langages and keys can be found [here](https://github.com/awassel/storybook-addon-asset-code/blob/master/src/lanuages.js#L3-L133).
 
 `raw-loader` is installed with this package in order to load the file contents as a string.
 

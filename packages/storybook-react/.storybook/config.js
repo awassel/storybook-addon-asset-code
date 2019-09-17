@@ -1,5 +1,5 @@
 import { configure, addDecorator, addParameters } from '@storybook/react';
-import { withAssetCode } from 'storybook-addon-asset-code';
+import { withAssetCode } from '../../../dist/';
 import theme from '../../../config/theme';
 
 addDecorator(withAssetCode);
