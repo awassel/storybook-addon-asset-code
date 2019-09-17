@@ -8,7 +8,7 @@ storiesOf('Button', module)
   .add('Default', 
   () => button,
   {
-    code: [
+    assetcode: [
       { html: html },
       { css: css },
     ],

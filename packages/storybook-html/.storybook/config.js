@@ -1,8 +1,8 @@
 import { configure, addParameters, addDecorator } from '@storybook/html';
-import { withCode } from '../../../dist/';
+import { withAssetCode } from '../../../dist/';
 import theme from '../../../config/theme';
 
-addDecorator(withCode);
+addDecorator(withAssetCode);
 
 addParameters({
   options: {

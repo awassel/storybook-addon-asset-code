@@ -8,7 +8,7 @@ storiesOf('Button', module)
         template: '<button>Hello Button</button>'
     }), 
     {
-        code: [
+        assetcode: [
           { js: js },
         ],
     });

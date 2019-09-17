@@ -10,7 +10,7 @@ storiesOf('Button', module).add(
     return <Button>Hello Button</Button>
   },
   {
-    code: [
+    assetcode: [
       { css: css },
       { jsx: jsx },
     ],

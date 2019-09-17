@@ -2,8 +2,8 @@ import addons, { makeDecorator } from '@storybook/addons';
 import { CHANNEL_ID } from './constants';
 
 const withCode = makeDecorator({
-  name: 'withCode',
-  parameterName: 'code',
+  name: 'withAssetCode',
+  parameterName: 'assetcode',
   skipIfNoParametersOrOptions: false,
   wrapper: (getStory, context, { options, parameters }) => {
     const channel = addons.getChannel();

@@ -4,9 +4,6 @@ export default create({
   // Is this a 'light' or 'dark' theme?
   base: 'dark',
 
-  // UI
-  // appContentBg: 'white',
-
   // Typography
   fontCode: 'monospace',
 
