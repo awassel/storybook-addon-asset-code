@@ -1,5 +1,5 @@
 import { configure, addParameters, addDecorator } from '@storybook/html';
-import { withAssetCode } from '../../../dist/';
+import { withAssetCode } from 'storybook-addon-asset-code';
 import theme from '../../../config/theme';
 
 addDecorator(withAssetCode);

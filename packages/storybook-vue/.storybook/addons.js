@@ -1,1 +1,1 @@
-import '../../../config/addons';
+import 'storybook-addon-asset-code/register';
